@@ -1,0 +1,39 @@
+.section {
+    background-color: #121212;
+    margin-left: 19.375rem;
+    margin-top: -7.5rem;
+}
+
+.section h3, p {
+    color: #fff;
+}
+
+.bar {
+    background-color: #090909;
+    display: flex;
+    gap: 1.875rem;
+}
+
+.bar img {
+    max-width: 9.375rem;
+}
+
+.bar li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.25rem;
+}
+
+.card {
+    background-color: #181818;
+    border-radius: .625rem .625rem .625rem;
+    width: 15.625rem;
+}

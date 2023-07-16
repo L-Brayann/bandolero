@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: #191919;
+    background-image: linear-gradient(to right, #0600f6, #d218ad  );
 }
 
 .navbar {
-    background-color: #121212;
+    background-color: #0F0E0F;
     margin-right: auto;
     width: 18.75rem;
     height: 7.5rem;

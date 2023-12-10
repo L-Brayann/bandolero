@@ -3,9 +3,19 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+:root {
+
+    /* Purple */
+    --color-purple-50: #0600f6;
+    --color-purple-100: #a855f7;
+    --color-purple-200: #d218ad;
+
+    /* Gradient */
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+}
 
 body {
-    background-image: linear-gradient(to right, #0600f6, #d218ad  );
+    background-image: var(--color-gradient);
 }
 
 .navbar {
